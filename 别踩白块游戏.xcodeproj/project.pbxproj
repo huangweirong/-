@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CC21F71B6C6B5A00513078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CC21F61B6C6B5A00513078 /* main.m */; };
+		79CC21FA1B6C6B5A00513078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CC21F91B6C6B5A00513078 /* AppDelegate.m */; };
+		79CC21FC1B6C6B5A00513078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CC21FB1B6C6B5A00513078 /* Images.xcassets */; };
+		79CC21FF1B6C6B5A00513078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CC21FD1B6C6B5A00513078 /* LaunchScreen.xib */; };
+		79CC220B1B6C6B5A00513078 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CC220A1B6C6B5A00513078 /* ______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79CC22051B6C6B5A00513078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CC21E91B6C6B5A00513078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CC21F01B6C6B5A00513078;
+			remoteInfo = "别踩白块游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79CC21F11B6C6B5A00513078 /* 别踩白块游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "别踩白块游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CC21F51B6C6B5A00513078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CC21F61B6C6B5A00513078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79CC21F81B6C6B5A00513078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79CC21F91B6C6B5A00513078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79CC21FB1B6C6B5A00513078 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79CC21FE1B6C6B5A00513078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79CC22041B6C6B5A00513078 /* 别踩白块游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "别踩白块游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CC22091B6C6B5A00513078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CC220A1B6C6B5A00513078 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CC21EE1B6C6B5A00513078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC22011B6C6B5A00513078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CC21E81B6C6B5A00513078 = {
+			isa = PBXGroup;
+			children = (
+				79CC21F31B6C6B5A00513078 /* 别踩白块游戏 */,
+				79CC22071B6C6B5A00513078 /* 别踩白块游戏Tests */,
+				79CC21F21B6C6B5A00513078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CC21F21B6C6B5A00513078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CC21F11B6C6B5A00513078 /* 别踩白块游戏.app */,
+				79CC22041B6C6B5A00513078 /* 别踩白块游戏Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CC21F31B6C6B5A00513078 /* 别踩白块游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				79CC21F81B6C6B5A00513078 /* AppDelegate.h */,
+				79CC21F91B6C6B5A00513078 /* AppDelegate.m */,
+				79CC21FB1B6C6B5A00513078 /* Images.xcassets */,
+				79CC21FD1B6C6B5A00513078 /* LaunchScreen.xib */,
+				79CC21F41B6C6B5A00513078 /* Supporting Files */,
+			);
+			path = "别踩白块游戏";
+			sourceTree = "<group>";
+		};
+		79CC21F41B6C6B5A00513078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CC21F51B6C6B5A00513078 /* Info.plist */,
+				79CC21F61B6C6B5A00513078 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79CC22071B6C6B5A00513078 /* 别踩白块游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79CC220A1B6C6B5A00513078 /* ______Tests.m */,
+				79CC22081B6C6B5A00513078 /* Supporting Files */,
+			);
+			path = "别踩白块游戏Tests";
+			sourceTree = "<group>";
+		};
+		79CC22081B6C6B5A00513078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CC22091B6C6B5A00513078 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CC21F01B6C6B5A00513078 /* 别踩白块游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CC220E1B6C6B5A00513078 /* Build configuration list for PBXNativeTarget "别踩白块游戏" */;
+			buildPhases = (
+				79CC21ED1B6C6B5A00513078 /* Sources */,
+				79CC21EE1B6C6B5A00513078 /* Frameworks */,
+				79CC21EF1B6C6B5A00513078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "别踩白块游戏";
+			productName = "别踩白块游戏";
+			productReference = 79CC21F11B6C6B5A00513078 /* 别踩白块游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CC22031B6C6B5A00513078 /* 别踩白块游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CC22111B6C6B5A00513078 /* Build configuration list for PBXNativeTarget "别踩白块游戏Tests" */;
+			buildPhases = (
+				79CC22001B6C6B5A00513078 /* Sources */,
+				79CC22011B6C6B5A00513078 /* Frameworks */,
+				79CC22021B6C6B5A00513078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79CC22061B6C6B5A00513078 /* PBXTargetDependency */,
+			);
+			name = "别踩白块游戏Tests";
+			productName = "别踩白块游戏Tests";
+			productReference = 79CC22041B6C6B5A00513078 /* 别踩白块游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CC21E91B6C6B5A00513078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lanou;
+				TargetAttributes = {
+					79CC21F01B6C6B5A00513078 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					79CC22031B6C6B5A00513078 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 79CC21F01B6C6B5A00513078;
+					};
+				};
+			};
+			buildConfigurationList = 79CC21EC1B6C6B5A00513078 /* Build configuration list for PBXProject "别踩白块游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79CC21E81B6C6B5A00513078;
+			productRefGroup = 79CC21F21B6C6B5A00513078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CC21F01B6C6B5A00513078 /* 别踩白块游戏 */,
+				79CC22031B6C6B5A00513078 /* 别踩白块游戏Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CC21EF1B6C6B5A00513078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC21FF1B6C6B5A00513078 /* LaunchScreen.xib in Resources */,
+				79CC21FC1B6C6B5A00513078 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC22021B6C6B5A00513078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CC21ED1B6C6B5A00513078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC21FA1B6C6B5A00513078 /* AppDelegate.m in Sources */,
+				79CC21F71B6C6B5A00513078 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CC22001B6C6B5A00513078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CC220B1B6C6B5A00513078 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79CC22061B6C6B5A00513078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79CC21F01B6C6B5A00513078 /* 别踩白块游戏 */;
+			targetProxy = 79CC22051B6C6B5A00513078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79CC21FD1B6C6B5A00513078 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CC21FE1B6C6B5A00513078 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79CC220C1B6C6B5A00513078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79CC220D1B6C6B5A00513078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CC220F1B6C6B5A00513078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "别踩白块游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79CC22101B6C6B5A00513078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "别踩白块游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79CC22121B6C6B5A00513078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "别踩白块游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/别踩白块游戏.app/别踩白块游戏";
+			};
+			name = Debug;
+		};
+		79CC22131B6C6B5A00513078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "别踩白块游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/别踩白块游戏.app/别踩白块游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CC21EC1B6C6B5A00513078 /* Build configuration list for PBXProject "别踩白块游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC220C1B6C6B5A00513078 /* Debug */,
+				79CC220D1B6C6B5A00513078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CC220E1B6C6B5A00513078 /* Build configuration list for PBXNativeTarget "别踩白块游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC220F1B6C6B5A00513078 /* Debug */,
+				79CC22101B6C6B5A00513078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79CC22111B6C6B5A00513078 /* Build configuration list for PBXNativeTarget "别踩白块游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CC22121B6C6B5A00513078 /* Debug */,
+				79CC22131B6C6B5A00513078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CC21E91B6C6B5A00513078 /* Project object */;
+}
