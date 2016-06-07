@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  别踩白块游戏
 //
-//  Created by lanou on 15/8/1.
-//  Copyright (c) 2015年 lanou. All rights reserved.
+//  Created by I三生有幸I on 16/1/29.
+//  Copyright (c) 2016年 盛辰. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,6 +19,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    RootViewController *rootVC = [[RootViewController alloc] init];
+    self.window.rootViewController = rootVC;
+    [rootVC release];
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
